@@ -1,5 +1,5 @@
 # SQL World Layoffs Data Cleaning Project
-In this project we clean world layoff data in SQL, to prepare for data exploration. 
+In this project we clean world layoff data in MySQL, to prepare for data exploration. 
 
 ## Tools and technologies
 - **SQL**: Data cleaning 
