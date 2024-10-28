@@ -169,3 +169,7 @@ FROM layoffs_staging2;
 -- Removes the row_num column
 ALTER TABLE layoffs_staging2
 DROP COLUMN row_num;
+
+-- Final cleaned world layoff data table
+SELECT *
+FROM layoffs_staging2;
