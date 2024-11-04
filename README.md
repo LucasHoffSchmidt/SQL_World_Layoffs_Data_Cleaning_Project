@@ -2,6 +2,7 @@
 In this project we clean world layoff data in MySQL, to prepare for data exploration. 
 
 ## Tools and technologies
+- **MySQL**
 - **SQL**: Data cleaning 
 
 ## Project Objectives
