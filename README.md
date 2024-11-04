@@ -13,7 +13,9 @@ In this project we clean world layoff data in MySQL, to prepare for data explora
 
 ## Analysis steps
 - **Data Cleaning**:
-  - Created a new table called layoffs_staging from raw data table
+  - Created a new schema called world_layoffs
+  - Imported a table called layoffs into the world_layoffs schema using the table data import wizard
+  - Created a new table called layoffs_staging from layoffs
   - Created a new table called layoffs_staging2 from layoffs_staging with an extra column named row_num
   - Made row_num increase in value for each duplicate row
   - Deleted duplicate rows
