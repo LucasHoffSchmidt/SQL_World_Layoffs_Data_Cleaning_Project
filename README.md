@@ -12,9 +12,6 @@ In this project we clean world layoff data in MySQL, to prepare for exploratory 
 - **MySQL**: Database Management System.
 - **SQL**: Interacting with the database.
 
-## Data Source
-- [World Layoffs Dataset](world_layoffs_dataset.csv)
-
 ## Process
 - Set up the MySQL Server, created a database and table schema and imported the dataset .csv file into a layoffs table using the import wizard.
 - Duplicated the layoffs table to layoffs_staging for cleaning and created a table called layoffs_staging2 with an extra row_num column to identify duplicates.
