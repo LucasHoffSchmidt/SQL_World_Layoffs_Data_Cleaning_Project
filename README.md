@@ -8,7 +8,7 @@ In this project we clean world layoff data in MySQL, to prepare for exploratory 
 - Part 2 of this project, where we conduct exploratory data analysis on the cleaned world layoffs dataset: [World Layoffs Exploratory Data Analysis](https://github.com/LucasHoffSchmidt/SQL_World_Layoffs_Data_Exploration_Project)
 - Other projects I have made: [Portfolio Website](https://lucashoffschmidt.github.io/)
 
-## Tools Used
+## Technologies Used
 - **MySQL**: Database Management System.
 - **SQL**: Interacting with the database.
 
