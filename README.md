@@ -36,5 +36,5 @@ In this project we clean world layoff data in MySQL, to prepare for exploratory 
   - Deleted rows where the columns total_laid_off and percentage_laid_off were both null.
   - Removed the row_num column.
 
-## Result
+## Cleaned Dataset
 - [Cleaned World Layoffs Dataset](clean_world_layoffs_dataset.csv)
