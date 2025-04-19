@@ -19,6 +19,3 @@ In this project we clean world layoff data in MySQL, to prepare for exploratory 
 - Converted the date column from string to date type.
 - Changed blank values in industries to null values and then to a comparable industry value if there was one.
 - Deleted rows where both total_laid_off and percentage_laid_off were null and removed the row_num helper column.  
-
-## Cleaned Dataset
-- [Cleaned World Layoffs Dataset](clean_world_layoffs_dataset.csv)
