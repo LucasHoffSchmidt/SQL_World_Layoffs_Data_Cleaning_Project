@@ -32,7 +32,7 @@ In this project we clean world layoff data in MySQL, to prepare for exploratory 
   - Changes the format of the date column to DATE on the table level.
   - Checked for null values in industries.
   - Changed blank values in industries into null values.
-  - Changed the industries that had null values to a comparable industry value if there were one.
+  - Changed the industries that had null values to a comparable industry value if there was one.
   - Deleted rows where the columns total_laid_off and percentage_laid_off were both null.
   - Removed the row_num column.
 
