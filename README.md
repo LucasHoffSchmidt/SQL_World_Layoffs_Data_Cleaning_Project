@@ -12,9 +12,6 @@ In this project we clean world layoff data in MySQL, to prepare for exploratory 
 - **MySQL**: Database Management System.
 - **SQL**: Interacting with the database.
 
-## Project Objective
-- Clean the world layoff data, so that it is easy to perform exploratory data analysis on it. 
-
 ## Data Source
 - [World Layoffs Dataset](world_layoffs_dataset.csv)
 
