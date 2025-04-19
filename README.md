@@ -5,7 +5,7 @@ In this project we clean world layoff data in MySQL, to prepare for exploratory 
 - Initial dataset: [Initial Dataset](world_layoffs_dataset.csv)
 - Cleaned dataset: [Cleaned Dataset](clean_world_layoffs_dataset.csv)
 - SQL code used to clean the dataset: [SQL Code](world_layoffs_data_cleaning_project.sql)
-- Part 2 of this project, where we conduct exploratory data analysis: [World Layoffs Exploratory Data Analysis](https://github.com/LucasHoffSchmidt/SQL_World_Layoffs_Data_Exploration_Project)
+- Part 2 of this project, where we conduct exploratory data analysis on the cleaned world layoffs dataset: [World Layoffs Exploratory Data Analysis](https://github.com/LucasHoffSchmidt/SQL_World_Layoffs_Data_Exploration_Project)
 - Other projects I have made: [Portfolio Website](https://lucashoffschmidt.github.io/)
 
 ## Tools Used
