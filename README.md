@@ -1,18 +1,20 @@
 # SQL World Layoffs Data Cleaning Project
-In this project we clean world layoff data in MySQL, to prepare for data exploration. 
+In this project we clean world layoff data in MySQL, to prepare for exploratory data analysis. 
 
-## Tools and technologies
-- **MySQL**
-- **SQL**: Data cleaning 
+## Quick Links
+- Other projects I have made: [Portfolio Website](https://lucashoffschmidt.github.io/)
 
-## Project Objectives
+## Tools Used
+- **MySQL**: Database Management System
+- **SQL**: Interacting with the database 
+
+## Project Objective
 - Clean the world layoff data, so that it is easy to perform exploratory data analysis on it. 
 
-## Data Sources
+## Data Source
 - [World Layoffs Dataset](world_layoffs_dataset.csv)
 
-## Analysis steps
-- **Data Cleaning**:
+## Process
   - Created a new schema called world_layoffs
   - Imported a table called layoffs into the world_layoffs schema using the table data import wizard
   - Duplicated the layoffs table to a new table called layoffs_staging
@@ -31,5 +33,5 @@ In this project we clean world layoff data in MySQL, to prepare for data explora
   - Deleted rows where the columns total_laid_off and percentage_laid_off were both null
   - Removed the row_num column
 
-## Visualizations
+## Result
 - [Cleaned World Layoffs Dataset](clean_world_layoffs_dataset.csv)
