@@ -19,25 +19,12 @@ In this project we clean world layoff data in MySQL, to prepare for exploratory 
 - [World Layoffs Dataset](world_layoffs_dataset.csv)
 
 ## Process
-  - Started MySQL Server.
-  - Created a database to contain tables. 
-  - Created a table schema called world_layoffs.
-  - Created a table called layoffs using the .csv dataset file, the world_layoffs schema and the table data import wizard.
-  - Duplicated the layoffs table to a new table called layoffs_staging.
-  - Checked for duplicate rows using a CTE and the window function ROW_NUMBER().
-  - Created a new table called layoffs_staging2 from the create statement of the layoffs table with an extra column named row_num to show duplicate rows.
-  - Showed all duplicate rows.
-  - Deleted all duplicate rows.
-  - Trimmed extra spaces from companies.
-  - Standardized all industries containing the word "Crypto" to only "Crypto".
-  - Removed trailing dots from all countries.
-  - Changed the format of dates from string to date.
-  - Changes the format of the date column to DATE on the table level.
-  - Checked for null values in industries.
-  - Changed blank values in industries into null values.
-  - Changed the industries that had null values to a comparable industry value if there was one.
-  - Deleted rows where the columns total_laid_off and percentage_laid_off were both null.
-  - Removed the row_num column.
+- Set up the MySQL Server, created a database and table schema and imported the dataset .csv file into a layoffs table using the import wizard.
+- Duplicated the layoffs table to layoffs_staging for cleaning and created a table called layoffs_staging2 with an extra row_num column to identify duplicates.
+- Deleted all duplicate rows and standardized data by trimming white space, unifying industry names under the same name and removing trailing dots from countries.
+- Converted the date column from string to date type.
+- Changed blank values in industries to null values and then to a comparable industry value if there was one.
+- Deleted rows where both total_laid_off and percentage_laid_off were null and removed the row_num helper column.  
 
 ## Cleaned Dataset
 - [Cleaned World Layoffs Dataset](clean_world_layoffs_dataset.csv)
