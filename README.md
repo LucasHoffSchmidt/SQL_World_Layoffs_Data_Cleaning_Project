@@ -18,8 +18,10 @@ In this project we clean world layoff data in MySQL, to prepare for exploratory 
 - [World Layoffs Dataset](world_layoffs_dataset.csv)
 
 ## Process
-  - Created a new schema called world_layoffs.
-  - Imported a table called layoffs into the world_layoffs schema using the table data import wizard.
+  - Started MySQL Server.
+  - Created a database to contain tables. 
+  - Created a table schema called world_layoffs.
+  - Created a table called layoffs using the .csv dataset file, the world_layoffs schema and the table data import wizard.
   - Duplicated the layoffs table to a new table called layoffs_staging.
   - Checked for duplicate rows using a CTE and the window function ROW_NUMBER().
   - Created a new table called layoffs_staging2 from the create statement of the layoffs table with an extra column named row_num to show duplicate rows.
